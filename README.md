@@ -40,7 +40,7 @@ Based on the structure of linked lists, they can be classified into several type
    
 4. Circular List with Deletion/Addition
 ## Algorithms
-### 1
+### Creating a node
 1. Define a class Node with:
 
 2. An integer val to store data.
@@ -50,7 +50,7 @@ Based on the structure of linked lists, they can be classified into several type
 4. In main():Create a new node n with value 10.
 
 5. Print the value of the node and its next pointer.
-### 2
+### Adding nodes to a list
 1. Define a class Link with: An integer data an a pointer next initialized to NULL.
 
 2. Define a function insert_head(head, data):Create a new node with the given data then Set its next to point to the current head and Update head to point to the new node.
@@ -61,7 +61,7 @@ Based on the structure of linked lists, they can be classified into several type
 
 5. Display the list after each insertion.
 
-### 3
+### Adding nodes on the left of a list
 1. Define a class Node with:
 
     An integer val.
