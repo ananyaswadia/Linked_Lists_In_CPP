@@ -3,6 +3,7 @@
 To tudy and implment linked lists in C++.
 ## Theory
 In C++, a linked list is a linear data structure that allows the users to store data in non-contiguous memory locations. A linked list is defined as a collection of nodes where each node consists of two members which represents its value and a next/previous pointer which stores the address for the next/previous node.
+
 <img width="812" height="221" alt="image" src="https://github.com/user-attachments/assets/9debc8c3-4524-44e5-8da5-f5df5acf2951" />
 
 ### Key Components of a Linked List
