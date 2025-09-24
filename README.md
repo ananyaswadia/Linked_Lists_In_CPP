@@ -50,33 +50,15 @@ Based on the structure of linked lists, they can be classified into several type
 
 5. Print the value of the node and its next pointer.
 ### 2
-    1. Define a class Link with:
+1. Define a class Link with: An integer data an a pointer next initialized to NULL.
 
-        An integer data.
+2. Define a function insert_head(head, data):Create a new node with the given data then Set its next to point to the current head and Update head to point to the new node.
 
-        A pointer next initialized to NULL.
+3. Define a function disp(head):Traverse the list from head to NULL. Print each node's data.
 
-    2. Define a function insert_head(head, data):
+4. In main():Initialize head as NULL then Insert nodes with values 30, 32, and 35 at the head.
 
-        Create a new node with the given data.
-
-        Set its next to point to the current head.
-
-        Update head to point to the new node.
-
-    3. Define a function disp(head):
-
-        Traverse the list from head to NULL.
-
-        Print each node's data.
-
-    4. In main():
-
-        Initialize head as NULL.
-
-        Insert nodes with values 30, 32, and 35 at the head.
-
-    5. Display the list after each insertion.
+5. Display the list after each insertion.
 
 ### 3
 1. Define a class Node with:
